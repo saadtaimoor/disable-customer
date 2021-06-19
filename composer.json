@@ -1,0 +1,33 @@
+{
+  "name": "stee/subcategories",
+  "description": "Gives the ability to list subcategories on category view page instead of products.",
+  "require": {
+    "magento/framework"      : ">=100.0.0",
+    "magento/module-catalog" : ">=100.0.0",
+    "magento/module-configurable-product" : ">=100.0.0",
+    "magento/module-eav" : ">=100.0.0",
+    "magento/module-config" : ">=100.0.0",
+    "magento/module-swatches" : ">=100.0.0"
+  },
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "author": [
+    {
+      "name": "Muhammad Saad Taimoor",
+      "email": "saadtaimoor@live.com",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "STee\\Subcategories\\": ""
+    }
+  }
+}
